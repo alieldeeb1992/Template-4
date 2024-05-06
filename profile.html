@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts Library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Start sidebar -->
+      <aside class="sidebar">
+        <h2>Eldeeb</h2>
+        <ul class="sections">
+          <li>
+            <a href="dashboard.html">
+              <i class="fa-regular fa-chart-bar fa-fw side-icon"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fa-solid fa-gear fa-fw side-icon"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="profile.html">
+              <i class="fa-regular fa-user fa-fw side-icon"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw side-icon"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw side-icon"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw side-icon"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-regular fa-file fa-fw side-icon"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw side-icon"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- End sidebar -->
+      <div class="rest-of-content">
+        <nav class="nav">
+          <div class="input">
+            <input type="text" />
+          </div>
+          <div class="info">
+            <div class="bell-container">
+              <i class="fa-regular fa-bell fa-lg bell"></i>
+            </div>
+            <img src="Images/avatar.png" alt="" class="img-nav" />
+          </div>
+        </nav>
+        <div class="profile">
+          <h2 class="profile-heading">profile</h2>
+          <div class="profile-container">
+            <div class="profile-information">
+              <div class="user">
+                <div class="user-img">
+                  <img src="Images/avatar.png" alt="" />
+                </div>
+                <p class="user-p">Osama Elzero</p>
+                <span class="user-span">level 20</span>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="user-span-2">550 rating</span>
+              </div>
+              <div class="info">
+                <div class="box">
+                  <p>general information</p>
+                  <div class="info-data">
+                    <p>fullname :<span>osama mohamed</span></p>
+                    <p>gender :<span>male</span></p>
+                    <p>countrty :<span>egypt</span></p>
+                    <div class="info-toggle-container">
+                      <label for="info-toggle-1">
+                        <input type="checkbox" checked id="info-toggle-1" />
+                        <div class="toggle-div"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <p>personal information</p>
+                  <div class="info-data">
+                    <p>email :<span>eldeeb@gmail.com</span></p>
+                    <p>phone :<span>01234567891</span></p>
+                    <p>date of birth :<span>16/03/1992</span></p>
+                    <div class="info-toggle-container">
+                      <label for="info-toggle-3">
+                        <input type="checkbox" id="info-toggle-3" />
+                        <div class="toggle-div"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <p>job information</p>
+                  <div class="info-data">
+                    <p>title :<span>full stack developer</span></p>
+                    <p>programming language :<span>python</span></p>
+                    <p>years of experience :<span>15+</span></p>
+                    <div class="info-toggle-container">
+                      <label for="info-toggle-4">
+                        <input type="checkbox" id="info-toggle-4" checked />
+                        <div class="toggle-div"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <p>billing information</p>
+                  <div class="info-data">
+                    <p>payment method :<span>paypal</span></p>
+                    <p>email :<span>email@website.com</span></p>
+                    <p>subscription :<span>monthly</span></p>
+                    <div class="info-toggle-container">
+                      <label for="info-toggle">
+                        <input type="checkbox" checked id="info-toggle" />
+                        <div class="toggle-div"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills-and-activities">
+              <div class="skills">
+                <h2 class="skills-heading">my skills</h2>
+                <span>complete skills list</span>
+                <div class="list-container">
+                  <ul>
+                    <li>HTML</li>
+                    <li>Pugjs</li>
+                    <li>HAML</li>
+                  </ul>
+                  <ul>
+                    <li>CSS</li>
+                    <li>SASS</li>
+                    <li>Stylus</li>
+                  </ul>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                  </ul>
+                  <ul>
+                    <li>Vuejs</li>
+                    <li>Reactjs</li>
+                  </ul>
+                  <ul>
+                    <li>Jest</li>
+                    <li>Jasmine</li>
+                  </ul>
+                  <ul>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                  </ul>
+                  <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="latst-activities">
+                <h2 class="latest-activities-heading">latest activities</h2>
+                <p>latest activities done by the user</p>
+                <div class="box">
+                  <div class="left">
+                    <div class="left-img">
+                      <img src="Images/activity-01.png" alt="" />
+                    </div>
+                    <div class="left-data">
+                      <p>Store</p>
+                      <span>Bought The Mastering Python Course </span>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <p>18:10</p>
+                    <span>Yesterday</span>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="left">
+                    <div class="left-img">
+                      <img src="Images/activity-02.png" alt="" />
+                    </div>
+                    <div class="left-data">
+                      <p>Academy</p>
+                      <span>Got The PHP Certificate </span>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <p>16:05</p>
+                    <span>Yesterday</span>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="left">
+                    <div class="left-img">
+                      <img src="Images/activity-02.png" alt="" />
+                    </div>
+                    <div class="left-data">
+                      <p>Badges</p>
+                      <span>Unlocked The 10 Skills Badge </span>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <p>18:05</p>
+                    <span>Yesterday</span>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="left">
+                    <div class="left-img">
+                      <img src="Images/activity-03.png" alt="" />
+                    </div>
+                    <div class="left-data">
+                      <p>Store</p>
+                      <span>Bought The Typescript Course </span>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <p>12:05</p>
+                    <span>Yesterday</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
